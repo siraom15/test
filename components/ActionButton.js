@@ -6,7 +6,7 @@ const ActionButton = (props) => {
     }
 
     return (
-        <Button onClick={(e) => sendProps()} className={props?.cn + " p-1 rounded-90 border-0"} style={{ backgroundColor: "#C4C4C4" }}>
+        <Button onClick={(e) => sendProps()} className={props?.cn + " p-1 rounded-0 border-0"} style={{ backgroundColor: "#C4C4C4" }}>
             <div className="text-white align-middle font-weight-bold">{props?.text}</div>
         </Button>
     )
