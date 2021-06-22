@@ -27,12 +27,12 @@ const CommandList = (props) => {
                 <Row className="p-2">
                     {arrows.map((e) => (
                         <Col xs="1" className="pr-1 p-0 m-0">
-                            <ActionButton text={e} cn="btn-block" callbackFunction={getData} />
+                            <ActionButton text={e} cn="btn-block " callbackFunction={getData} />
                         </Col>
                     ))}
                     {actions.map((e) => (
                         <Col className="pl-1 m-0">
-                            <ActionButton text={e} cn="btn-block" callbackFunction={() => { }} />
+                            <ActionButton text={e} cn="btn-block " callbackFunction={() => { }} />
                         </Col>
                     ))}
                 </Row>

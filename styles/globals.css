@@ -9,3 +9,20 @@
 *{
   font-family: 'Prompt', sans-serif;
 }
+.vl {
+    border-right: 2px solid #C4C4C4;
+    height: 130%;
+    left: 100%;
+    top: -15%;
+    z-index: 1;
+}
+.dot {
+  top: 25%;
+  left: 70%;
+  z-index: 2;
+  height: 25px;
+  width: 25px;
+  background-color: #C4C4C4;
+  border-radius: 50%;
+  display: inline-block;
+}
